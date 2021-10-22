@@ -1,0 +1,141 @@
+[
+    {
+        "stateMutability": "nonpayable",
+        "type": "constructor",
+        "inputs": [
+            {
+                "name": "_beneficiary",
+                "type": "address"
+            },
+            {
+                "name": "_auction_start",
+                "type": "uint256"
+            },
+            {
+                "name": "_bidding_time",
+                "type": "uint256"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "stateMutability": "payable",
+        "type": "function",
+        "name": "bid",
+        "inputs": [],
+        "outputs": [],
+        "gas": 118515
+    },
+    {
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "withdraw",
+        "inputs": [],
+        "outputs": [],
+        "gas": 58861
+    },
+    {
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "endAuction",
+        "inputs": [],
+        "outputs": [],
+        "gas": 80146
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "beneficiary",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "gas": 2616
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "auctionStart",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "gas": 2646
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "auctionEnd",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "gas": 2676
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "highestBidder",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "gas": 2706
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "highestBid",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "gas": 2736
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "ended",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "gas": 2766
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "pendingReturns",
+        "inputs": [
+            {
+                "name": "arg0",
+                "type": "address"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "gas": 3068
+    }
+]
