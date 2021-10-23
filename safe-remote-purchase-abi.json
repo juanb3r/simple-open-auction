@@ -1,0 +1,97 @@
+[
+    {
+        "stateMutability": "payable",
+        "type": "constructor",
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "abort",
+        "inputs": [],
+        "outputs": [],
+        "gas": 31767
+    },
+    {
+        "stateMutability": "payable",
+        "type": "function",
+        "name": "purchase",
+        "inputs": [],
+        "outputs": [],
+        "gas": 59929
+    },
+    {
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "received",
+        "inputs": [],
+        "outputs": [],
+        "gas": 109433
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "value",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "gas": 2616
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "seller",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "gas": 2646
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "buyer",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "gas": 2676
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "unlocked",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "gas": 2706
+    },
+    {
+        "stateMutability": "view",
+        "type": "function",
+        "name": "ended",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "gas": 2736
+    }
+]
